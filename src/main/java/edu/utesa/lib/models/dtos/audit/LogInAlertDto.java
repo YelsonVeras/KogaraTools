@@ -10,4 +10,20 @@ public class LogInAlertDto {
         this.userId = userId;
         this.loginDate = loginDate;
     }
+
+    public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public Date getLoginDate() {
+        return loginDate;
+    }
+
+    public void setLoginDate(Date loginDate) {
+        this.loginDate = loginDate;
+    }
 }

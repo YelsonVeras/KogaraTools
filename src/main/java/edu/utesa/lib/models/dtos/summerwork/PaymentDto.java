@@ -20,4 +20,92 @@ public class PaymentDto {
     private String atm;
     private String station;
     private String description;
+
+    public CompanyDto getCompanyDto() {
+        return companyDto;
+    }
+
+    public void setCompanyDto(CompanyDto companyDto) {
+        this.companyDto = companyDto;
+    }
+
+    public ParticipantProgramDto getProgram() {
+        return program;
+    }
+
+    public void setProgram(ParticipantProgramDto program) {
+        this.program = program;
+    }
+
+    public ParticipantDto getParticipantDto() {
+        return participantDto;
+    }
+
+    public void setParticipantDto(ParticipantDto participantDto) {
+        this.participantDto = participantDto;
+    }
+
+    public PaymentStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(PaymentStatus status) {
+        this.status = status;
+    }
+
+    public BigInteger getAccount() {
+        return account;
+    }
+
+    public void setAccount(BigInteger account) {
+        this.account = account;
+    }
+
+    public BigDecimal getAmount() {
+        return amount;
+    }
+
+    public void setAmount(BigDecimal amount) {
+        this.amount = amount;
+    }
+
+    public CoinDto getCoinDto() {
+        return coinDto;
+    }
+
+    public void setCoinDto(CoinDto coinDto) {
+        this.coinDto = coinDto;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
+
+    public String getAtm() {
+        return atm;
+    }
+
+    public void setAtm(String atm) {
+        this.atm = atm;
+    }
+
+    public String getStation() {
+        return station;
+    }
+
+    public void setStation(String station) {
+        this.station = station;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

@@ -11,4 +11,44 @@ public class BranchOfficeDto {
     private boolean principal;
     private AddressDto addressDto;
     private Set<ContactDto> contacts;
+
+    public CompanyDto getCompanyDto() {
+        return companyDto;
+    }
+
+    public void setCompanyDto(CompanyDto companyDto) {
+        this.companyDto = companyDto;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public boolean isPrincipal() {
+        return principal;
+    }
+
+    public void setPrincipal(boolean principal) {
+        this.principal = principal;
+    }
+
+    public AddressDto getAddressDto() {
+        return addressDto;
+    }
+
+    public void setAddressDto(AddressDto addressDto) {
+        this.addressDto = addressDto;
+    }
+
+    public Set<ContactDto> getContacts() {
+        return contacts;
+    }
+
+    public void setContacts(Set<ContactDto> contacts) {
+        this.contacts = contacts;
+    }
 }

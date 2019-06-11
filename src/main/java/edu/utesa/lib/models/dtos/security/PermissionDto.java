@@ -1,11 +1,8 @@
 package edu.utesa.lib.models.dtos.security;
 
-import edu.utesa.lib.models.enums.type.security.EnumPermissionType;
-
 public class PermissionDto {
     private int code;
     private String name;
-    private EnumPermissionType type;
     private String description;
 
     public int getCode() {
@@ -22,14 +19,6 @@ public class PermissionDto {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public EnumPermissionType getType() {
-        return type;
-    }
-
-    public void setType(EnumPermissionType type) {
-        this.type = type;
     }
 
     public String getDescription() {

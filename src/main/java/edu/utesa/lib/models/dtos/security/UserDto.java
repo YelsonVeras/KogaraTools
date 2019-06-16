@@ -1,11 +1,12 @@
 package edu.utesa.lib.models.dtos.security;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.company.CompanyDto;
 
 import java.util.Locale;
 import java.util.Set;
 
-public class UserDto {
+public class UserDto extends BaseDto {
     private CompanyDto companyDto;
     private String nickName;
     private String password;

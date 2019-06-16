@@ -1,9 +1,10 @@
 package edu.utesa.lib.models.dtos.security;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.company.CompanyDto;
 import edu.utesa.lib.models.enums.type.security.EnumParamValueType;
 
-public class ParamDto {
+public class ParamDto extends BaseDto {
     private CompanyDto companyDto;
     private Integer code;
     private EnumParamValueType type;

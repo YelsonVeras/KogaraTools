@@ -1,12 +1,13 @@
 package edu.utesa.lib.models.dtos.company;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.document.DocumentDto;
 import edu.utesa.lib.models.dtos.security.ParamDto;
 import edu.utesa.lib.models.dtos.security.UserDto;
 
 import java.util.Set;
 
-public class CompanyDto {
+public class CompanyDto extends BaseDto {
     private UserDto userDto;
     private String name;
     private String url = "";

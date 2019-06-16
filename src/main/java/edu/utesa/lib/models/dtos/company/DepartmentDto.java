@@ -1,6 +1,8 @@
 package edu.utesa.lib.models.dtos.company;
 
-public class DepartmentDto {
+import edu.utesa.lib.models.dtos.BaseDto;
+
+public class DepartmentDto extends BaseDto {
     private CompanyDto companyDto;
     private String name;
 

@@ -1,6 +1,8 @@
 package edu.utesa.lib.models.dtos.security;
 
-public class PermissionDto {
+import edu.utesa.lib.models.dtos.BaseDto;
+
+public class PermissionDto extends BaseDto {
     private int code;
     private String name;
     private String description;

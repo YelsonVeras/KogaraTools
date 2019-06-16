@@ -1,8 +1,9 @@
 package edu.utesa.lib.models.dtos.security;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.company.CompanyDto;
 
-public class PermissionGroupDto {
+public class PermissionGroupDto extends BaseDto {
     private CompanyDto companyDto;
     private String name;
     private String description;

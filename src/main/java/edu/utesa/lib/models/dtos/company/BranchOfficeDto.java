@@ -1,11 +1,12 @@
 package edu.utesa.lib.models.dtos.company;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.contact.ContactDto;
 import edu.utesa.lib.models.dtos.location.AddressDto;
 
 import java.util.Set;
 
-public class BranchOfficeDto {
+public class BranchOfficeDto extends BaseDto {
     private CompanyDto companyDto;
     private String name;
     private boolean principal;

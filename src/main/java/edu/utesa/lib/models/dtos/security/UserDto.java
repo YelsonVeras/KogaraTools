@@ -2,8 +2,8 @@ package edu.utesa.lib.models.dtos.security;
 
 import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.company.CompanyDto;
+import edu.utesa.lib.models.enums.Language;
 
-import java.util.Locale;
 import java.util.Set;
 
 public class UserDto extends BaseDto {
@@ -11,7 +11,7 @@ public class UserDto extends BaseDto {
     private String nickName;
     private String password;
     private String mail;
-    private Locale language;
+    private Language language;
     private Boolean isAdmin = false;
     private Set<PermissionDto> permissionDtos;
 
@@ -47,11 +47,11 @@ public class UserDto extends BaseDto {
         this.mail = mail;
     }
 
-    public Locale getLanguage() {
+    public Language getLanguage() {
         return language;
     }
 
-    public void setLanguage(Locale language) {
+    public void setLanguage(Language language) {
         this.language = language;
     }
 

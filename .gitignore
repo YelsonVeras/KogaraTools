@@ -4,6 +4,7 @@
 out
 
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
 *.iws
 *.ipr
+settings.gradle

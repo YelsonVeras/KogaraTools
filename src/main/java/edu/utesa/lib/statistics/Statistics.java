@@ -1,6 +1,7 @@
 package edu.utesa.lib.statistics;
 
 import edu.utesa.lib.models.Pair;
+import edu.utesa.lib.panel.Item;
 
 import java.util.List;
 
@@ -28,6 +29,25 @@ public class Statistics {
             }
         }
         return "0";
+    }
+
+    private static Item discreet(List<Item> items) {
+        double rand = Tools.getRandomStatistical();
+        double probability = 0D;
+
+        for (Item item : items) {
+            probability += item.getProbability();
+            if (rand < probability) {
+                return item;
+            }
+        }
+        return items.get(items.size() - 1);
+    }
+
+    public static Item uniformProbability(List<Item> items) {
+        double probability = 1D / items.size();
+        items.forEach(item -> item.setProbability(probability));
+        return discreet(items);
     }
 
     public static double uniformProbability(long minValue, long maxValue) {

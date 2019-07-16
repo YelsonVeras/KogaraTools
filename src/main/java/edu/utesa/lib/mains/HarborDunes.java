@@ -1,4 +1,4 @@
-package edu.utesa.lib;
+package edu.utesa.lib.mains;
 
 import edu.utesa.lib.models.Pair;
 import edu.utesa.lib.statistics.Statistics;

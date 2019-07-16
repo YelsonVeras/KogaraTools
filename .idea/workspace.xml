@@ -1,32 +1,220 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77042ffd-7da7-43ff-9886-14e4cae17f6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/HashUtils.java" afterDir="false" />
+    <list default="true" id="77042ffd-7da7-43ff-9886-14e4cae17f6f" name="Default Changelist" comment="Basico">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/mains/HarborDunes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/mains/MainCap16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/mains/MainCap16_10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/mains/TriStateCorporation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/LibUtesa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/MainCap16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/MainCap16_10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/statistics/Statistics.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/statistics/Statistics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/HarborDunes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/LibUtesa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16_10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/TriStateCorporation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/statistics/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/utesa/lib/statistics/Statistics.java" afterDir="false" />
+    </list>
+    <list id="328e56f9-7265-4822-82cb-1df7fe875df0" name="Agregando lo que hizo marlin" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/KogaraTools-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/KogaraTools-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/audit/LogInAlertDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/audit/LogInAlertDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/BranchOfficeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/BranchOfficeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/CompanyDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/CompanyDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/DepartmentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/DepartmentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/EmployeeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/EmployeeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/PositionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/company/PositionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/CoinDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/CoinDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/ProgramCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/ProgramCost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/ProgramDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/ProgramDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/ProgramTypeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/ProgramTypeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/SeasonDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/configuration/SeasonDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/contact/ContactDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/contact/ContactDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/document/DocumentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/document/DocumentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/inventory/ArticleDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/inventory/ArticleDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/inventory/BrandDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/inventory/BrandDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/inventory/UnitsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/inventory/UnitsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/AddressDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/AddressDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/CityDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/CityDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/ContinentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/ContinentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/CountryDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/location/CountryDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/mail/EmailDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/mail/EmailDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/mail/ForgotPasswordDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/mail/ForgotPasswordDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/person/PersonDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/person/PersonDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/ParamDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/ParamDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/PermissionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/PermissionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/PermissionGroupDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/PermissionGroupDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/security/UserDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/sell/InvoiceDetailsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/sell/InvoiceDetailsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/sell/InvoiceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/sell/InvoiceDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/AppointmentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/AppointmentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/CareerDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/CareerDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/EducationInformationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/EducationInformationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/EventTypeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/EventTypeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/FamilyInformationDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/FamilyInformationDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/GuarantorDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/GuarantorDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/GuarantorPropertyDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/GuarantorPropertyDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/JobsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/JobsDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/MiscellaneousDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/MiscellaneousDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/MiscellaneousQuestionDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/MiscellaneousQuestionDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantDocumentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantDocumentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantLanguageDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantLanguageDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantProgramDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantProgramDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantSponsorDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/ParticipantSponsorDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/PassportDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/PassportDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/PaymentDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/PaymentDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/SponsorDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/SponsorDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/UniversityDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/UniversityDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/VisaDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/VisaDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/VisaTypeDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/VisaTypeDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/WorkExperienceDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/dtos/summerwork/WorkExperienceDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/enums/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/edu/utesa/lib/models/enums/Language.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/KogaraTools-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/LibUtesa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/MainCap16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/SessionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/audit/LogInAlert.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/company/BranchOffice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/company/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/company/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/company/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/company/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/configuration/Coin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/configuration/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/configuration/ProgramCost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/configuration/ProgramType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/configuration/Season.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/contact/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/document/Document.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/inventory/Article.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/inventory/Brand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/inventory/Units.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/location/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/location/City.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/location/Continent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/location/Country.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/mail/Email.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/mail/ForgotPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/person/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/security/Param.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/security/Permission.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/security/PermissionGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/security/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/sell/Invoice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/sell/InvoiceDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Appointment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Career.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/EducationInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/EventType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/FamilyInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Guarantor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/GuarantorProperty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Jobs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Miscellaneous.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/MiscellaneousQuestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Participant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/ParticipantDocument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/ParticipantLanguage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/ParticipantProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/ParticipantSponsor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Passport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Payment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Sponsor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/Visa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/VisaType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/dtos/summerwork/WorkExperience.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/BooleanResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/BooleanResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Days$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Days.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Device.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Kindred$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Kindred.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Language.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/LanguageLevel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/LanguageLevel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/ParticipantImageModel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/ParticipantImageModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/ParticipantItemInformation$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/ParticipantItemInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Period$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Period.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Qualification.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/RollerOwner$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/RollerOwner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/SID.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/AppointmentStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/AppointmentStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ImmigrationStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ImmigrationStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/InvoiceStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/InvoiceStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ParticipantDocumentStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ParticipantDocumentStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ParticipantStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ParticipantStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/PaymentStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ProgramStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/Status/ProgramStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/Gender$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/Gender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/MaritalStatus$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/MaritalStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/Nationality$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/Nationality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/Size$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/person/Size.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/ArticleType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/ArticleType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/ContactType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/ContactType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/DocumentType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/DocumentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/EnumMiscellaneousValueType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/EnumMiscellaneousValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/NotificationType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/PeriodType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/PeriodType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/security/EnumParamValueType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/security/EnumParamValueType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/security/EnumPermissionType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/models/enums/type/security/EnumPermissionType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/statistics/Statistics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/statistics/Tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/utils/I18n.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/utils/Tools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/edu/utesa/lib/utils/caption/EnumCaption.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/messages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/messages_es.properties" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+  <component name="ChangesViewManager" show_ignored="true">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -44,7 +232,18 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="KogaraTools" type="f1a62948:ProjectNode" />
+                <item name="Tools" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tools" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Tools" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -52,31 +251,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/HashUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="27" selection-start-column="8" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,162 +281,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/company/BranchOffice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/company/Department.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/mail/Email.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/mail/ForgotPassword.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/person/Person.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/Param.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/Permission.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/PermissionGroup.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/sell/InvoiceDetails.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/sell/Invoice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Appointment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Career.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/EducationInformation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/EventType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/FamilyInformation.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Guarantor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/GuarantorProperty.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Jobs.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Miscellaneous.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/MiscellaneousQuestion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantDocument.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Participant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantLanguage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantProgram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantSponsor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Passport.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Payment.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Sponsor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/University.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/Visa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/VisaType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/WorkExperience.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/audit/LogInAlert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/statistics/Tools.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16_10.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/Pair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/statistics/Statistics.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/LibUtesa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/location/OceanicCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/AfricanCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/AmericanCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/AsianCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/Continents.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/EuropeanCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/OceanicCountries.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/HashUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/CryptType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/CryptUtils.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
-    <option name="width" value="1368" />
-    <option name="height" value="743" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="enums" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KogaraTools" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KogaraTools" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1NIWZ7tPqgN63Gv0T1B6VBCH3Bn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.utesa.lib.panel" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.utesa.lib.models.dtos.configurations" />
+      <recent name="edu.utesa.lib.models.dtos.school" />
       <recent name="edu.utesa.lib.models.enums" />
       <recent name="edu.utesa.lib.utils" />
       <recent name="edu.utesa.lib" />
-      <recent name="edu.utesa.lib.utils.caption" />
-      <recent name="edu.utesa.lib.models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/school" />
       <recent name="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos" />
@@ -280,13 +334,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.KogaraTools [jar]">
-    <configuration name="MainCap16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.utesa.lib.MainCap16" />
-      <module name="KogaraTools.main" />
+  <component name="RunManager" selected="Gradle.Tools [jar]">
+    <configuration name="PanelIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.utesa.lib.panel.PanelIV" />
+      <module name="Tools.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.utesa.lib.*" />
+          <option name="PATTERN" value="edu.utesa.lib.panel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,20 +348,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tools" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.utesa.lib.statistics.Tools" />
-      <module name="KogaraTools.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.utesa.lib.statistics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KogaraTools [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Tools [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -328,9 +369,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.KogaraTools [jar]" />
-        <item itemvalue="Application.MainCap16" />
-        <item itemvalue="Application.Tools" />
+        <item itemvalue="Gradle.Tools [jar]" />
+        <item itemvalue="Application.PanelIV" />
       </list>
     </recent_temporary>
   </component>
@@ -340,6 +380,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="77042ffd-7da7-43ff-9886-14e4cae17f6f" name="Default Changelist" comment="" />
+      <changelist id="328e56f9-7265-4822-82cb-1df7fe875df0" name="Agregando lo que hizo marlin" comment="" />
       <created>1559137988359</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -349,81 +390,98 @@
       <workItem from="1559341372931" duration="10769000" />
       <workItem from="1559435296324" duration="9347000" />
       <workItem from="1559502677100" duration="1566000" />
-      <workItem from="1559947587217" duration="733000" />
+      <workItem from="1559947587217" duration="1102000" />
+      <workItem from="1559966599768" duration="631000" />
+      <workItem from="1560016766229" duration="27000" />
+      <workItem from="1560019407793" duration="541000" />
+      <workItem from="1560020167221" duration="11000" />
+      <workItem from="1560026053392" duration="8759000" />
+      <workItem from="1560208741810" duration="3573000" />
+      <workItem from="1560225055963" duration="154000" />
+      <workItem from="1560359758016" duration="104000" />
+      <workItem from="1560636055885" duration="710000" />
+      <workItem from="1560637087584" duration="361000" />
+      <workItem from="1560646518705" duration="1411000" />
+      <workItem from="1560991913842" duration="1089000" />
+      <workItem from="1561090784381" duration="42000" />
+      <workItem from="1561175672003" duration="644000" />
+      <workItem from="1561515614897" duration="1828000" />
+      <workItem from="1561601705598" duration="504000" />
+      <workItem from="1561769145715" duration="1163000" />
+      <workItem from="1561770435789" duration="89000" />
+      <workItem from="1561770535576" duration="54000" />
+      <workItem from="1561771594407" duration="1346000" />
+      <workItem from="1561941828652" duration="11584000" />
+      <workItem from="1562015612381" duration="3000" />
+      <workItem from="1562025693534" duration="176000" />
+      <workItem from="1562071421563" duration="37000" />
+      <workItem from="1562116674071" duration="19000" />
     </task>
+    <task id="LOCAL-00001" summary="Agregando encriptacion">
+      <created>1559948500222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559948500222</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Agregando Getter y Setter a User">
+      <created>1559966724167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559966724167</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add gitIgnored">
+      <created>1559966828732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559966828732</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Cambios">
+      <created>1560225132011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560225132011</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Basico">
+      <created>1560649059259</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560649059259</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Basico">
+      <created>1561175695738</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561175695738</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Agregando lo que hizo marlin">
+      <created>1561602079681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561602079682</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Agregando lo que hizo marlin">
+      <created>1561769247274</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561769247274</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Basico">
+      <created>1561769602006</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561769602006</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28915000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="743" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26812688" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18770227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32847896" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32901135" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" weight="0.32930514" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25755286" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.32847896" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -449,13 +507,36 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Agregando encriptacion" />
+    <MESSAGE value="Agregando Getter y Setter a User" />
+    <MESSAGE value="Add gitIgnored" />
+    <MESSAGE value="Cambios" />
+    <MESSAGE value="Agregando lo que hizo marlin" />
+    <MESSAGE value="Basico" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basico" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/mains/MainCap16.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -485,541 +566,5 @@
   <component name="designer.settings">
     <option name="autodetectServerAddress" value="true" />
     <option name="serverIp" value="localhost" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/PermissionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/sell/InvoiceDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/PermissionGroupDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/UserDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/sell/InvoiceDetailsDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/FamilyInformationDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/person/Size.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/MiscellaneousQuestionDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantDocumentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/MiscellaneousDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/JobsDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" lean-forward="true" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/GuarantorPropertyDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/GuarantorDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/EventTypeDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/EducationInformationDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/AppointmentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/CareerDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantLanguageDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantProgramDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/ParticipantSponsorDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/PassportDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/PaymentDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/SponsorDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/UniversityDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/VisaDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/VisaTypeDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/summerwork/WorkExperienceDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/audit/LogInAlertDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/statistics/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#904#905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/statistics/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1218#1219#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/LibUtesa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/MainCap16_10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/dtos/security/ParamDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/type/security/EnumParamValueType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/Language.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding>
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/AfricanCountries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/AmericanCountries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/AsianCountries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/Continents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/EuropeanCountries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/location/OceanicCountries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/LoanMasterUrls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/I18n.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/models/enums/CryptType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/CryptUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/utesa/lib/utils/HashUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>main|KogaraTools</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

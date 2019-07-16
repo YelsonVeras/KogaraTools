@@ -26,6 +26,7 @@ dependencies {
     implementation 'com.github.javafaker:javafaker:0.18'
     
     compile 'commons-codec:commons-codec:1.10'
+    compile 'org.projectlombok:lombok:1.18.8'
 
     annotationProcessor 'org.projectlombok:lombok:1.18.8'
 

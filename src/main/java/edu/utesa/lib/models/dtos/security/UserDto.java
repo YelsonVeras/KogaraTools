@@ -12,8 +12,8 @@ public class UserDto extends BaseDto {
     private String password;
     private String mail;
     private Language language;
-    private Boolean isAdmin = false;
-    private Set<PermissionDto> permissionDtos;
+    private Boolean admin = false;
+    private Set<PermissionDto> permissions;
 
     public CompanyDto getCompanyDto() {
         return companyDto;
@@ -56,18 +56,18 @@ public class UserDto extends BaseDto {
     }
 
     public Boolean getAdmin() {
-        return isAdmin;
+        return admin;
     }
 
     public void setAdmin(Boolean admin) {
-        isAdmin = admin;
+        this.admin = admin;
     }
 
-    public Set<PermissionDto> getPermissionDtos() {
-        return permissionDtos;
+    public Set<PermissionDto> getPermissions() {
+        return permissions;
     }
 
-    public void setPermissionDtos(Set<PermissionDto> permissionDtos) {
-        this.permissionDtos = permissionDtos;
+    public void setPermissions(Set<PermissionDto> permissions) {
+        this.permissions = permissions;
     }
 }

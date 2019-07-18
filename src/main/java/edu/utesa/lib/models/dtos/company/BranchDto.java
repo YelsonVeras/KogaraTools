@@ -3,7 +3,7 @@ package edu.utesa.lib.models.dtos.company;
 import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.location.AddressDto;
 
-public class BranchOfficeDto extends BaseDto {
+public class BranchDto extends BaseDto {
     private CompanyDto companyDto;
     private String name;
     private boolean principal;

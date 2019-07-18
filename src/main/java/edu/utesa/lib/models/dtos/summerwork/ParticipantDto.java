@@ -1,6 +1,6 @@
 package edu.utesa.lib.models.dtos.summerwork;
 
-import edu.utesa.lib.models.dtos.company.BranchOfficeDto;
+import edu.utesa.lib.models.dtos.company.BranchDto;
 import edu.utesa.lib.models.dtos.person.PersonDto;
 import edu.utesa.lib.models.dtos.security.UserDto;
 import edu.utesa.lib.models.enums.Qualification;
@@ -10,7 +10,7 @@ import edu.utesa.lib.models.enums.person.Size;
 import java.util.Set;
 
 public class ParticipantDto {
-    private BranchOfficeDto branchOfficeDto;
+    private BranchDto branchDto;
     private Qualification qualification;
     private UserDto userDto;
     private PersonDto personDto;
@@ -22,12 +22,12 @@ public class ParticipantDto {
     private Set<GuarantorDto> guarantorDtos;
     private Set<SponsorDto> sponsorDtos;
 
-    public BranchOfficeDto getBranchOfficeDto() {
-        return branchOfficeDto;
+    public BranchDto getBranchDto() {
+        return branchDto;
     }
 
-    public void setBranchOfficeDto(BranchOfficeDto branchOfficeDto) {
-        this.branchOfficeDto = branchOfficeDto;
+    public void setBranchDto(BranchDto branchDto) {
+        this.branchDto = branchDto;
     }
 
     public Qualification getQualification() {

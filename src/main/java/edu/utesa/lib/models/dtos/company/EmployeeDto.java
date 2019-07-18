@@ -7,19 +7,9 @@ import edu.utesa.lib.models.dtos.security.UserDto;
 import java.math.BigDecimal;
 
 public class EmployeeDto extends BaseDto {
-    private BranchOfficeDto branchOfficeDto;
     private PersonDto personDto;
     private UserDto userDto;
-    private PositionDto positionDto;
-    private BigDecimal salary;
-
-    public BranchOfficeDto getBranchOfficeDto() {
-        return branchOfficeDto;
-    }
-
-    public void setBranchOfficeDto(BranchOfficeDto branchOfficeDto) {
-        this.branchOfficeDto = branchOfficeDto;
-    }
+    private BigDecimal limiter;
 
     public PersonDto getPersonDto() {
         return personDto;
@@ -37,19 +27,11 @@ public class EmployeeDto extends BaseDto {
         this.userDto = userDto;
     }
 
-    public PositionDto getPositionDto() {
-        return positionDto;
+    public BigDecimal getLimiter() {
+        return limiter;
     }
 
-    public void setPositionDto(PositionDto positionDto) {
-        this.positionDto = positionDto;
-    }
-
-    public BigDecimal getSalary() {
-        return salary;
-    }
-
-    public void setSalary(BigDecimal salary) {
-        this.salary = salary;
+    public void setLimiter(BigDecimal limiter) {
+        this.limiter = limiter;
     }
 }

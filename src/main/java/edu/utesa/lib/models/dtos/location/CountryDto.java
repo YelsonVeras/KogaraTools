@@ -1,6 +1,8 @@
 package edu.utesa.lib.models.dtos.location;
 
-public class CountryDto {
+import edu.utesa.lib.models.dtos.BaseDto;
+
+public class CountryDto extends BaseDto {
     private ContinentDto continentDto;
     private String name;
 

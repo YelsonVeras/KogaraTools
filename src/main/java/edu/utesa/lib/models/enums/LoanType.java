@@ -1,0 +1,5 @@
+package edu.utesa.lib.models.enums;
+
+public enum LoanType {
+    SIMPLE_FIXED_INTEREST, SIMPLE_VARIED_INTEREST, AMORTIZED_FIXED_PAYMENT, AMORTIZED_FIXED_INTEREST
+}

@@ -4,7 +4,7 @@ import edu.utesa.lib.models.dtos.company.CompanyDto;
 
 public class BrandDto {
     private CompanyDto companyDto;
-    private String sid;
+    private String id;
     private String name;
     private String description;
 
@@ -17,11 +17,11 @@ public class BrandDto {
     }
 
     public String getSid() {
-        return sid;
+        return id;
     }
 
     public void setSid(String sid) {
-        this.sid = sid;
+        this.id = sid;
     }
 
     public String getName() {

@@ -3,16 +3,8 @@ package edu.utesa.lib.models.dtos.company;
 import edu.utesa.lib.models.dtos.BaseDto;
 
 public class DepartmentDto extends BaseDto {
-    private CompanyDto companyDto;
     private String name;
-
-    public CompanyDto getCompanyDto() {
-        return companyDto;
-    }
-
-    public void setCompanyDto(CompanyDto companyDto) {
-        this.companyDto = companyDto;
-    }
+    private String description;
 
     public String getName() {
         return name;
@@ -20,5 +12,13 @@ public class DepartmentDto extends BaseDto {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

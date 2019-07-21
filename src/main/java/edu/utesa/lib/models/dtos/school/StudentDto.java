@@ -3,7 +3,12 @@ package edu.utesa.lib.models.dtos.school;
 import edu.utesa.lib.models.dtos.location.AddressDto;
 import edu.utesa.lib.models.dtos.person.PersonDto;
 import edu.utesa.lib.models.dtos.security.UserDto;
+import lombok.*;
 
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class StudentDto {
     private PersonDto personDto;
     private AddressDto addressDto;
@@ -11,51 +16,24 @@ public class StudentDto {
     private GradeDto gradeDto;
     private UserDto userDto;
 
-    public StudentDto(PersonDto personDto, AddressDto addressDto, SchoolDto schoolDto, GradeDto gradeDto, UserDto userDto) {
-        this.personDto = personDto;
-        this.addressDto = addressDto;
-        this.schoolDto = schoolDto;
-        this.gradeDto = gradeDto;
-        this.userDto = userDto;
+    public String getFullName() {
+        return personDto.getFirstNames() + " " + personDto.getLastNames();
     }
 
-    public PersonDto getPersonDto() {
-        return personDto;
+    public String getAddress() {
+        return addressDto.getAddress() + ", " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
+                addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
     }
 
-    public void setPersonDto(PersonDto personDto) {
-        this.personDto = personDto;
+    public String getSchool(){
+        return schoolDto.getName();
     }
 
-    public AddressDto getAddressDto() {
-        return addressDto;
+    public String getGrade(){
+        return gradeDto.getName();
     }
 
-    public void setAddressDto(AddressDto addressDto) {
-        this.addressDto = addressDto;
-    }
-
-    public SchoolDto getSchoolDto() {
-        return schoolDto;
-    }
-
-    public void setSchoolDto(SchoolDto schoolDto) {
-        this.schoolDto = schoolDto;
-    }
-
-    public GradeDto getGradeDto() {
-        return gradeDto;
-    }
-
-    public void setGradeDto(GradeDto gradeDto) {
-        this.gradeDto = gradeDto;
-    }
-
-    public UserDto getUserDto() {
-        return userDto;
-    }
-
-    public void setUserDto(UserDto userDto) {
-        this.userDto = userDto;
+    public String getUser(){
+        return userDto.getNickName();
     }
 }

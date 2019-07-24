@@ -5,6 +5,7 @@ import edu.utesa.lib.models.dtos.BaseDto;
 public class AddressDto extends BaseDto {
     private CountryDto countryDto;
     private String city;
+    private CityDto cityDto;
     private String name = "Principal";
     private String sector;
     private String zipCode;
@@ -32,6 +33,14 @@ public class AddressDto extends BaseDto {
 
     public void setSector(String sector) {
         this.sector = sector;
+    }
+
+    public CityDto getCityDto() {
+        return cityDto;
+    }
+
+    public void setCityDto(CityDto cityDto) {
+        this.cityDto = cityDto;
     }
 
     public String getName() {

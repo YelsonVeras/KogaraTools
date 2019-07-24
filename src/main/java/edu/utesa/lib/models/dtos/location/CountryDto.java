@@ -6,6 +6,10 @@ public class CountryDto extends BaseDto {
     private ContinentDto continentDto;
     private String name;
 
+    public CountryDto(String name) {
+        this.name = name;
+    }
+
     public ContinentDto getContinentDto() {
         return continentDto;
     }

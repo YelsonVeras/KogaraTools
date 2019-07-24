@@ -6,6 +6,11 @@ public class DepartmentDto extends BaseDto {
     private String name;
     private String description;
 
+    public DepartmentDto(long id, String name) {
+        setId(id);
+        this.name = name;
+    }
+
     public String getName() {
         return name;
     }

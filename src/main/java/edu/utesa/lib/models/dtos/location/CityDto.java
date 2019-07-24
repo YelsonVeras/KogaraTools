@@ -4,6 +4,11 @@ public class CityDto {
     private CountryDto countryDto;
     private String name;
 
+    public CityDto(CountryDto countryDto, String name) {
+        this.countryDto = countryDto;
+        this.name = name;
+    }
+
     public CountryDto getCountryDto() {
         return countryDto;
     }

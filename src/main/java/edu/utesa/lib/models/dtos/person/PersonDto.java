@@ -19,6 +19,9 @@ public class PersonDto extends BaseDto {
     private AddressDto addressDto;
     private String dni;
 
+    public PersonDto() {
+    }
+
     public PersonDto(long id, String firstNames, String lastNames, Nationality nationality, Gender gender, MaritalStatus maritalStatus, Date birthDay, String issueCity, AddressDto addressDto, String dni) {
         setId(id);
         this.firstNames = firstNames;

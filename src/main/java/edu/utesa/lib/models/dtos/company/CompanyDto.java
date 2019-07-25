@@ -9,7 +9,7 @@ public class CompanyDto extends BaseDto {
     private String name;
     private String url = "";
     private String activity;
-    private String RNC;
+    private String rnc;
     private String imgAddress;
     private String description;
     private Set<ParamDto> paramDtos;
@@ -38,12 +38,12 @@ public class CompanyDto extends BaseDto {
         this.activity = activity;
     }
 
-    public String getRNC() {
-        return RNC;
+    public String getRnc() {
+        return rnc;
     }
 
-    public void setRNC(String RNC) {
-        this.RNC = RNC;
+    public void setRnc(String rnc) {
+        this.rnc = rnc;
     }
 
     public String getImgAddress() {
@@ -68,5 +68,10 @@ public class CompanyDto extends BaseDto {
 
     public void setParamDtos(Set<ParamDto> paramDtos) {
         this.paramDtos = paramDtos;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }

@@ -13,6 +13,18 @@ public class EmployeeDto extends BaseDto {
     private PositionDto positionDto;
     private BigDecimal salary;
 
+    public EmployeeDto() {
+    }
+
+    public EmployeeDto(long id, BranchDto branchDto, PersonDto personDto, UserDto userDto, PositionDto positionDto, BigDecimal salary) {
+        setId(id);
+        this.branchDto = branchDto;
+        this.personDto = personDto;
+        this.userDto = userDto;
+        this.positionDto = positionDto;
+        this.salary = salary;
+    }
+
     public BranchDto getBranchDto() {
         return branchDto;
     }

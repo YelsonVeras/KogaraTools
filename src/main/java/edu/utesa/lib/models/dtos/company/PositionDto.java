@@ -6,6 +6,15 @@ public class PositionDto extends BaseDto {
     private String name;
     private String description;
 
+    public PositionDto() {
+    }
+
+    public PositionDto(long id, String name, String description) {
+        setId(id);
+        this.name = name;
+        this.description = description;
+    }
+
     public String getName() {
         return name;
     }

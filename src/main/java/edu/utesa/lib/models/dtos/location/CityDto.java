@@ -1,22 +1,15 @@
 package edu.utesa.lib.models.dtos.location;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
 public class CityDto {
     private CountryDto countryDto;
     private String name;
-
-    public CountryDto getCountryDto() {
-        return countryDto;
-    }
-
-    public void setCountryDto(CountryDto countryDto) {
-        this.countryDto = countryDto;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 }

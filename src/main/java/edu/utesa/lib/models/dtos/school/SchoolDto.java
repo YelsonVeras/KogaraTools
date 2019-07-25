@@ -1,5 +1,6 @@
 package edu.utesa.lib.models.dtos.school;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.location.AddressDto;
 import lombok.*;
 
@@ -7,7 +8,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class SchoolDto {
+public class SchoolDto extends BaseDto {
     private String name;
     private String district;
     private AddressDto addressDto;

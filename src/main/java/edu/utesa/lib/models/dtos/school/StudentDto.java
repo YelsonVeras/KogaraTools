@@ -1,5 +1,6 @@
 package edu.utesa.lib.models.dtos.school;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.location.AddressDto;
 import edu.utesa.lib.models.dtos.person.PersonDto;
 import edu.utesa.lib.models.dtos.security.UserDto;
@@ -9,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
-public class StudentDto {
+public class StudentDto extends BaseDto {
     private PersonDto personDto;
     private AddressDto addressDto;
     private SchoolDto schoolDto;

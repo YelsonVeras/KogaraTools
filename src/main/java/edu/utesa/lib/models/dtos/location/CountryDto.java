@@ -12,4 +12,9 @@ import lombok.Setter;
 @Setter
 public class CountryDto extends BaseDto {
     private String name;
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

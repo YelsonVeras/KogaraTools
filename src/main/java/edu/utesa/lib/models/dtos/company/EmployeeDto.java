@@ -11,9 +11,19 @@ public class EmployeeDto extends BaseDto {
     private PersonDto personDto;
     private UserDto userDto;
     private PositionDto positionDto;
+    private DepartmentDto departmentDto;
     private BigDecimal salary;
 
     public EmployeeDto() {
+    }
+
+    public EmployeeDto(BranchDto branchDto, PersonDto personDto, UserDto userDto, PositionDto positionDto, DepartmentDto departmentDto, BigDecimal salary) {
+        this.branchDto = branchDto;
+        this.personDto = personDto;
+        this.userDto = userDto;
+        this.positionDto = positionDto;
+        this.departmentDto = departmentDto;
+        this.salary = salary;
     }
 
     public EmployeeDto(long id, BranchDto branchDto, PersonDto personDto, UserDto userDto, PositionDto positionDto, BigDecimal salary) {
@@ -63,5 +73,18 @@ public class EmployeeDto extends BaseDto {
 
     public void setSalary(BigDecimal salary) {
         this.salary = salary;
+    }
+
+    public DepartmentDto getDepartmentDto() {
+        return departmentDto;
+    }
+
+    public void setDepartmentDto(DepartmentDto departmentDto) {
+        this.departmentDto = departmentDto;
+    }
+
+    @Override
+    public String toString() {
+        return personDto.toString();
     }
 }

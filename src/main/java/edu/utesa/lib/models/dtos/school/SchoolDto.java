@@ -14,7 +14,7 @@ public class SchoolDto extends BaseDto {
     private AddressDto addressDto;
 
     public String getFullAddress() {
-        return addressDto.getAddress() + ", " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
+        return addressDto.getAddress() + " " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
                 addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
     }
 }

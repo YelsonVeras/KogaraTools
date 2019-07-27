@@ -25,7 +25,7 @@ public class TeacherDto extends BaseDto {
     }
 
     public String getAddress() {
-        return addressDto.getAddress() + ", " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
+        return addressDto.getAddress() + " " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
                 addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
     }
 

@@ -11,16 +11,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class TopicDto extends BaseDto {
-    private GradeDto gradeDto;
     private SubjectDto subjectDto;
     private String name;
     private String description;
 
-    public String getGradeName(){
-        return gradeDto.getName();
-    }
-
     public String getSubjectName(){
-        return gradeDto.getName();
+        return subjectDto.getName();
     }
 }

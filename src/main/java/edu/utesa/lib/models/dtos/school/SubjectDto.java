@@ -8,6 +8,11 @@ import lombok.*;
 @Getter
 @Setter
 public class SubjectDto extends BaseDto {
+    private GradeDto gradeDto;
     private String name;
     private String description;
+
+    public String getGradeName(){
+        return gradeDto.getName();
+    }
 }

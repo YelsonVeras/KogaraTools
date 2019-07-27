@@ -1,5 +1,6 @@
 package edu.utesa.lib.models.dtos.school;
 
+import edu.utesa.lib.models.dtos.BaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class GradeDto {
+public class GradeDto extends BaseDto {
     private SchoolDto schoolDto;
     private String name;
     private String description;

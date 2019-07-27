@@ -13,4 +13,8 @@ public class GradeDto {
     private SchoolDto schoolDto;
     private String name;
     private String description;
+
+    public String getSchoolName(){
+        return schoolDto.getName();
+    }
 }

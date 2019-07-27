@@ -13,7 +13,7 @@ public class SchoolDto extends BaseDto {
     private String district;
     private AddressDto addressDto;
 
-    public String getAddress() {
+    public String getFullAddress() {
         return addressDto.getAddress() + ", " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
                 addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
     }

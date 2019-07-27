@@ -49,4 +49,9 @@ public class BranchDto extends BaseDto {
     public void setContacts(String contacts) {
         this.contacts = contacts;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

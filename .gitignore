@@ -1,13 +1,15 @@
-.gradle/
+.gradle/*
 #/build/
 !gradle/wrapper/gradle-wrapper.jar
 out
 
 ### IntelliJ IDEA ###
-.idea/
+.idea/*
 *.iws
 *.ipr
 
 # Project exclude paths
+/build/*
 /build/
-/build/classes/java/main/
+/.idea/
+/gradle/

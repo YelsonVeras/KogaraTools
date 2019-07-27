@@ -106,4 +106,10 @@ public class PersonDto extends BaseDto {
     public void setDni(String dni) {
         this.dni = dni;
     }
+
+
+    @Override
+    public String toString() {
+        return firstNames;
+    }
 }

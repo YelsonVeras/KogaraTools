@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-class Box {
+public class Box {
     private List<Item> items = Arrays.asList(
             new Item(1, "BLANCO"),
             new Item(2, "NEGRO"),
@@ -15,7 +15,7 @@ class Box {
             new Item(5, "MORADO")
     );
 
-    Item get() {
+    public Item get() {
         Item item = Statistics.uniformProbability(items);
         items = items.stream().filter(item1 -> item1.getId() != item.getId()).collect(Collectors.toList());
         return item;

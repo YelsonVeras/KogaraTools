@@ -1,4 +1,8 @@
-package edu.utesa.lib.panel;
+package edu.utesa.lib.mains;
+
+import edu.utesa.lib.panel.Box;
+import edu.utesa.lib.panel.Generator;
+import edu.utesa.lib.panel.ParticipantPanel;
 
 import java.util.ArrayList;
 import java.util.List;

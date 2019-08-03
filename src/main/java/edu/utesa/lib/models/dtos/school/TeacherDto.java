@@ -24,20 +24,20 @@ public class TeacherDto extends BaseDto {
         return personDto.getFirstNames() + " " + personDto.getLastNames();
     }
 
-    public String getAddress() {
+    public String getFullAddress() {
         return addressDto.getAddress() + " " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
                 addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
     }
 
-    public String getSchool() {
+    public String getSchoolName() {
         return schoolDto.getName();
     }
 
-    public String getGrade() {
+    public String getGradeName() {
         return gradeDto.getName();
     }
 
-    public String getUser() {
+    public String getUserNickname() {
         return userDto.getNickName();
     }
 }

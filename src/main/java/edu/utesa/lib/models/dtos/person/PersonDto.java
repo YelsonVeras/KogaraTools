@@ -10,9 +10,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
-import java.util.Date;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
@@ -21,7 +18,7 @@ public class PersonDto extends BaseDto {
     private String dni;
     private String firstNames;
     private String lastNames;
-    private Date birthday;
+    private String birthday;
     private Gender gender;
     private Nationality nationality;
     private MaritalStatus maritalStatus;

@@ -12,7 +12,7 @@ public class SubjectDto extends BaseDto {
     private String name;
     private String description;
 
-    public String getGradeName(){
+    public String theGradeName(){
         return gradeDto.getName();
     }
 }

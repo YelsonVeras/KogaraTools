@@ -17,24 +17,24 @@ public class StudentDto extends BaseDto {
     private GradeDto gradeDto;
     private UserDto userDto;
 
-    public String getFullName() {
+    public String theFullName() {
         return personDto.getFirstNames() + " " + personDto.getLastNames();
     }
 
-    public String getFullAddress() {
+    public String theFullAddress() {
         return addressDto.getAddress() + " " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
                 addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
     }
 
-    public String getSchoolName(){
+    public String theSchoolName() {
         return schoolDto.getName();
     }
 
-    public String getGradeName(){
+    public String theGradeName() {
         return gradeDto.getName();
     }
 
-    public String getUserNickname(){
+    public String theUserNickname() {
         return userDto.getNickName();
     }
 }

@@ -15,7 +15,7 @@ public class TopicDto extends BaseDto {
     private String name;
     private String description;
 
-    public String getSubjectName(){
+    public String theSubjectName(){
         return subjectDto.getName();
     }
 }

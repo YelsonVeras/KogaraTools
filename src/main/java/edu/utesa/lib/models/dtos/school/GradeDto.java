@@ -15,7 +15,7 @@ public class GradeDto extends BaseDto {
     private String name;
     private String description;
 
-    public String getSchoolName(){
+    public String theSchoolName(){
         return schoolDto.getName();
     }
 }

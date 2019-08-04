@@ -10,15 +10,15 @@ public enum MaritalStatus {
     public String toString() {
         switch (this) {
             case SINGLE:
-                return I18n.getText(EnumCaption.SINGLE);
+                return "Soltero";
             case MARRIED:
-                return I18n.getText(EnumCaption.MARRIED);
+                return "Casado";
             case SEPARATED:
-                return I18n.getText(EnumCaption.SEPARATED);
+                return "Separado";
             case DIVORCED:
-                return I18n.getText(EnumCaption.DIVORCED);
+                return "Divorciado";
             case WIDOWED:
-                return I18n.getText(EnumCaption.WIDOWED);
+                return "Viudo";
         }
         return "";
     }

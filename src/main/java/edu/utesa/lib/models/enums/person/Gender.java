@@ -10,9 +10,9 @@ public enum Gender {
     public String toString() {
         switch (this) {
             case MALE:
-                return I18n.getText(EnumCaption.MALE);
+                return "Hombre";
             case FEMALE:
-                return I18n.getText(EnumCaption.FEMALE);
+                return "Mujer";
         }
         return "";
     }

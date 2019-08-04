@@ -10,13 +10,13 @@ public enum Nationality {
     public String toString() {
         switch (this) {
             case DOMINICAN:
-                return I18n.getText(EnumCaption.DOMINICAN);
+                return "Dominicano";
             case HAITIAN:
-                return I18n.getText(EnumCaption.HAITIAN);
+                return "Haitiano";
             case PUERTO_RICAN:
-                return I18n.getText(EnumCaption.PUERTO_RICAN);
+                return "Puertoriqueño";
             case COLOMBIAN:
-                return I18n.getText(EnumCaption.COLOMBIAN);
+                return "Colombiano";
         }
         return "";
     }

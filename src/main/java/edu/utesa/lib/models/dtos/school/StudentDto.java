@@ -16,6 +16,7 @@ public class StudentDto extends BaseDto {
     private SchoolDto schoolDto;
     private GradeDto gradeDto;
     private UserDto userDto;
+    private int points;
 
     public String theFullName() {
         return personDto.getFirstNames() + " " + personDto.getLastNames();

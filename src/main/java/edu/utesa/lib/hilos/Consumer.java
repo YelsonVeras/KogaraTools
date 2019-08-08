@@ -24,6 +24,7 @@ public class Consumer implements Runnable {
             }
 
         } catch (Exception ignored) {
+
         }
     }
 }

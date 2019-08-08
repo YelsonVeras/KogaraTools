@@ -7,7 +7,7 @@ import edu.utesa.lib.models.dtos.security.UserDto;
 
 import java.math.BigDecimal;
 
-public class ClientDto extends BaseDto {
+public class CustomerDto extends BaseDto {
     private BranchDto branchDto;
     private PersonDto personDto;
     private UserDto userDto;

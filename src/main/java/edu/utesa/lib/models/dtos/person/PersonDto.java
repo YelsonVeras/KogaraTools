@@ -23,4 +23,9 @@ public class PersonDto extends BaseDto {
     private Nationality nationality;
     private MaritalStatus maritalStatus;
     private AddressDto addressDto;
+
+    @Override
+    public String toString() {
+        return firstNames;
+    }
 }

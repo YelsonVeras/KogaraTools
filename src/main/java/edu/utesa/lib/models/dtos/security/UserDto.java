@@ -23,7 +23,6 @@ public class UserDto extends BaseDto {
     private Boolean admin = false;
     private Set<PermissionDto> permissions;
 
-
     @Override
     public String toString() {
         return nickName;

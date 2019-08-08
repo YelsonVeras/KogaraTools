@@ -1,6 +1,7 @@
 package edu.utesa.lib.models.dtos.school;
 
 import edu.utesa.lib.models.dtos.BaseDto;
+import edu.utesa.lib.models.enums.ExamDifficulty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,11 +16,13 @@ import java.util.Set;
 public class ProblemDto extends BaseDto {
     private TeacherDto teacherDto;
     private TopicDto topicDto;
+    private ExamDifficulty examDifficulty;
     private String question;
     private String correctAnswer;
     private String incorrectAnswer01;
     private String incorrectAnswer02;
     private String incorrectAnswer03;
+    private int points;
 
     public String theFullName() {
         return teacherDto.getPersonDto().getFirstNames() + " " + teacherDto.getPersonDto().getLastNames();

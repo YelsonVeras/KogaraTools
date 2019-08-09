@@ -2,7 +2,10 @@ package edu.utesa.lib.models.dtos.school;
 
 import edu.utesa.lib.models.dtos.BaseDto;
 import edu.utesa.lib.models.dtos.location.AddressDto;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -14,7 +17,10 @@ public class SchoolDto extends BaseDto {
     private AddressDto addressDto;
 
     public String theFullAddress() {
-        return addressDto.getAddress() + " " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
-                addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
+        if (addressDto != null)
+            return addressDto.getAddress() + " " + addressDto.getSector() + ", " + addressDto.getCity() + ", " +
+                    addressDto.getCountryDto().getName() + ", " + addressDto.getZipCode();
+        else
+            return "";
     }
 }

@@ -23,6 +23,7 @@ public class ExamDto extends BaseDto {
     private Date fromDate;
     private Date toDate;
     private Set<ProblemDto> problems;
+    private int points;
 
     public String theTeacherName(){
         return teacherDto.getPersonDto().getFirstNames() + " " + teacherDto.getPersonDto().getLastNames();

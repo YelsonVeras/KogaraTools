@@ -22,7 +22,6 @@ public class ProblemDto extends BaseDto {
     private String incorrectAnswer01;
     private String incorrectAnswer02;
     private String incorrectAnswer03;
-    private int points;
 
     public String theFullName() {
         return teacherDto.getPersonDto().getFirstNames() + " " + teacherDto.getPersonDto().getLastNames();

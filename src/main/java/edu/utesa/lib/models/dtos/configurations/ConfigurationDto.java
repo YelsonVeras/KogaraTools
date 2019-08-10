@@ -8,6 +8,9 @@ public class ConfigurationDto {
     private Integer questions;
     private GameDifficulty difficulty;
 
+    public ConfigurationDto() {
+    }
+
     public ConfigurationDto(GameMode mode, Integer questions, GameDifficulty difficulty) {
         this.mode = mode;
         this.questions = questions;

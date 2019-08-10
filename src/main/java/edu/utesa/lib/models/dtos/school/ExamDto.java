@@ -20,8 +20,8 @@ public class ExamDto extends BaseDto {
     private SubjectDto subjectDto;
     private TopicDto topicDto;
     private int problemQuantity;
-    private Date fromDate;
-    private Date toDate;
+    private String fromDate;
+    private String toDate;
     private Set<ProblemDto> problems;
     private int points;
 

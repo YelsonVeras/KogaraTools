@@ -1,17 +1,17 @@
 package edu.utesa.lib.models.dtos.configurations;
 
-import edu.utesa.lib.models.enums.GameDifficulty;
+import edu.utesa.lib.models.enums.ExamDifficulty;
 import edu.utesa.lib.models.enums.GameMode;
 
 public class ConfigurationDto {
     private GameMode mode;
     private Integer questions;
-    private GameDifficulty difficulty;
+    private ExamDifficulty difficulty;
 
     public ConfigurationDto() {
     }
 
-    public ConfigurationDto(GameMode mode, Integer questions, GameDifficulty difficulty) {
+    public ConfigurationDto(GameMode mode, Integer questions, ExamDifficulty difficulty) {
         this.mode = mode;
         this.questions = questions;
         this.difficulty = difficulty;
@@ -33,11 +33,11 @@ public class ConfigurationDto {
         this.questions = questions;
     }
 
-    public GameDifficulty getDifficulty() {
+    public ExamDifficulty getDifficulty() {
         return difficulty;
     }
 
-    public void setDifficulty(GameDifficulty difficulty) {
+    public void setDifficulty(ExamDifficulty difficulty) {
         this.difficulty = difficulty;
     }
 }

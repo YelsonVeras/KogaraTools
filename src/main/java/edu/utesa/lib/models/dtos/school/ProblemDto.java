@@ -5,9 +5,7 @@ import edu.utesa.lib.models.enums.ExamDifficulty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-
 import lombok.Setter;
-import java.util.Set;
 
 @AllArgsConstructor
 @NoArgsConstructor
@@ -18,6 +16,7 @@ public class ProblemDto extends BaseDto {
     private TopicDto topicDto;
     private ExamDifficulty examDifficulty;
     private String question;
+    private double point;
     private String correctAnswer;
     private String incorrectAnswer01;
     private String incorrectAnswer02;

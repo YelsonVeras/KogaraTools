@@ -1,13 +1,12 @@
 package edu.utesa.lib.models.dtos.school;
 
 import edu.utesa.lib.models.dtos.BaseDto;
-import edu.utesa.lib.models.enums.ExamDifficulty;
+import edu.utesa.lib.models.enums.GameDifficulty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.Date;
 import java.util.Set;
 
 @AllArgsConstructor
@@ -16,7 +15,7 @@ import java.util.Set;
 @Setter
 public class ExamDto extends BaseDto {
     private TeacherDto teacherDto;
-    private ExamDifficulty examDifficulty;
+    private GameDifficulty gameDifficulty;
     private SubjectDto subjectDto;
     private TopicDto topicDto;
     private int problemQuantity;
@@ -25,15 +24,15 @@ public class ExamDto extends BaseDto {
     private Set<ProblemDto> problems;
     private int points;
 
-    public String theTeacherName(){
+    public String theTeacherName() {
         return teacherDto.getPersonDto().getFirstNames() + " " + teacherDto.getPersonDto().getLastNames();
     }
 
-    public String theSubjectName(){
+    public String theSubjectName() {
         return subjectDto.getName();
     }
 
-    public String theTopicName(){
+    public String theTopicName() {
         return topicDto.getName();
     }
 }

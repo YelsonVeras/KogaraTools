@@ -1,7 +1,8 @@
 package edu.utesa.lib.models.dtos.school;
 
 import edu.utesa.lib.models.dtos.BaseDto;
-import edu.utesa.lib.models.enums.ExamDifficulty;
+import edu.utesa.lib.models.enums.GameDifficulty;
+import edu.utesa.lib.models.enums.GameDifficulty;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +15,7 @@ import lombok.Setter;
 public class ProblemDto extends BaseDto {
     private TeacherDto teacherDto;
     private TopicDto topicDto;
-    private ExamDifficulty examDifficulty;
+    private GameDifficulty gameDifficulty;
     private String question;
     private double point;
     private String correctAnswer;

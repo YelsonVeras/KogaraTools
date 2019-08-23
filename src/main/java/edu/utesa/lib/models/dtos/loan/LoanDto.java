@@ -33,6 +33,6 @@ public class LoanDto extends BaseDto {
     private Period interestTerm;
 
     private boolean paid;
-    private Date startPaymentOn;
+    private String startPaymentOn;
     private BigDecimal nonPayment;
 }

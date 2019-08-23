@@ -14,6 +14,10 @@ public class EmployeeDto extends BaseDto {
     private DepartmentDto departmentDto;
     private BigDecimal salary;
 
+    public String theFullName(){
+        return personDto.getFirstNames() + " " + personDto.getLastNames();
+    }
+
     public EmployeeDto() {
     }
 

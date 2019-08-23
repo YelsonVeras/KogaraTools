@@ -24,7 +24,7 @@ public class LoanDto extends BaseDto {
     private ClientDto client;
     private LoanType type;
     private BigDecimal amount;
-    private Date date;
+    private String date;
 
     private BigDecimal interestRate;
     private Period interestPeriod;

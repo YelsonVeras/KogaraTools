@@ -1,9 +1,12 @@
 package edu.utesa.lib.models.dtos.loan;
 
 import edu.utesa.lib.models.dtos.BaseDto;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
-
+@NoArgsConstructor
+@AllArgsConstructor
 public class LoanPaymentDto extends BaseDto {
     private String date;
     private BigDecimal amount;
@@ -11,6 +14,10 @@ public class LoanPaymentDto extends BaseDto {
     private BigDecimal interest;
     private BigDecimal capital;
     private BigDecimal nonPayment;
+
+    public String theLoan(){
+        return  loanDto.getId() + " - " + loanDto.getClient().theFullName();
+    }
 
     public String getDate() {
         return date;

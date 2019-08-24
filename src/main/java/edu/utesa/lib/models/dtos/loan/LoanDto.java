@@ -16,7 +16,6 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 @NoArgsConstructor
-@AllArgsConstructor
 @Getter
 @Setter
 public class LoanDto extends BaseDto {
@@ -35,4 +34,24 @@ public class LoanDto extends BaseDto {
     private boolean paid;
     private String startPaymentOn;
     private BigDecimal nonPayment;
+
+    public LoanDto(Long id) {
+        super(id);
+    }
+
+    public LoanDto(Long id, EmployeeDto agent, ClientDto client, LoanType type, BigDecimal amount, String date, BigDecimal interestRate, Period interestPeriod, int term, Period interestTerm, boolean paid, String startPaymentOn, BigDecimal nonPayment) {
+        super(id);
+        this.agent = agent;
+        this.client = client;
+        this.type = type;
+        this.amount = amount;
+        this.date = date;
+        this.interestRate = interestRate;
+        this.interestPeriod = interestPeriod;
+        this.term = term;
+        this.interestTerm = interestTerm;
+        this.paid = paid;
+        this.startPaymentOn = startPaymentOn;
+        this.nonPayment = nonPayment;
+    }
 }
